@@ -16,7 +16,7 @@ export const Card = () => {
               <br />
               <div className="right_card">
                 <button className="button">
-                  <a href="https://demo.leebrosus.com/petpuzzy/">
+                  <a className="a-in-card" href="https://demo.leebrosus.com/petpuzzy/">
                     {item.learn}
                   </a>
                   <AiFillPlusCircle className="shop heIcon" />
