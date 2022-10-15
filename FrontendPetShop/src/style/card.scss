@@ -3,7 +3,9 @@
   @include grid(repeat(5, 1fr), 30px);
   .card {
     @include flex(center, none, center);
-
+    a.a-in-card {
+      color: $white;
+    }
     img {
       width: 60px;
       margin-right: $md;
